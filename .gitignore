@@ -1,0 +1,30 @@
+# Python virtual environment
+venv/
+venv_old/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Large data files or sensitive information (if any)
+# For example, if you had a very large dataset folder you didn't want to upload:
+# large_dataset_folder/
+# secrets.txt
+
+# Jupyter Notebook checkpoints (if you used notebooks locally for testing)
+.ipynb_checkpoints/
+
+# Streamlit specific (though usually not necessary if venv is ignored)
+.streamlit/
